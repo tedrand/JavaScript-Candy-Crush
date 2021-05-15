@@ -1,0 +1,59 @@
+@font-face {
+    font-family: 'digital-7';
+    src: url('digital-7.ttf');
+}
+
+body {
+    background-image: url('images/bg.jpg');
+}
+
+#game-board {
+    margin: auto;
+    width: 900px;
+}
+
+#board {
+    background-image: url('images/football-field.jpg');
+    background-size: auto;
+    background-repeat: no-repeat;
+    width: 900px;
+    display: block;
+}
+
+.grid-holder {
+    display: block;
+    width: 580px;
+    margin: auto;
+}
+
+.grid {
+    height: 580px;
+    width: 580px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.grid div {
+    height: 70px;
+    width: 70px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #ffffff66;
+    border: 1px solid white;
+}
+
+.score-board {
+    background: #333;
+    color: yellow;
+    padding: 1em;
+    width: 868px;
+    text-align: center;
+    font-family: 'digital-7';
+    border: 1px solid yellow;
+    margin-bottom: 1em;
+}
+
+.score-board h1 {
+    display: inline;
+}
